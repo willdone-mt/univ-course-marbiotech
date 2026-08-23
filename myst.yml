@@ -29,12 +29,12 @@ project:
   exports:
     - format: typst
       template: lapreprint-typst
-      output: exports/book.pdf
+      output: exports/modul-biotek-praktikum_25.pdf
       id: output-pdf
   
   downloads:
     - id: output-pdf   # 2. Reference the ID here
-      title: Download PDF
+      title: Download Full Book as PDF
 
   # Jupyter Notebook configuration
   jupyter:
