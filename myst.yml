@@ -37,43 +37,8 @@ project:
     binder:
       repo: https://github.com/executablebooks/thebe-binder-base
 
-  toc:
-    - file: index.md                      # the landing page
-    - file: content/1_intro.md
-    - file: content/2_cheat_sheet.md
-    - file: content/lessons/your_turn.md          # dropdown menu
-      children:
-        - file: content/lessons/0_setup.md
-        - file: content/lessons/1_firstedit.md
-        - file: content/lessons/1_landingpage.md
-        - file: content/lessons/2_nextstep.md
-          children:
-            - file: content/lessons/2a_plugins.md
-        - file: content/lessons/reuse.md
-        - file: content/lessons/executable.md
-        - file: content/lessons/5_workflows.md
-        - file: content/lessons/6_pdfoverview.md
-          children:
-            - file: content/lessons/6a_myst.md
-            - file: content/lessons/6b_pdfgeneration.md
-            - file: content/lessons/6c_pdfoutput.md
-            # - file: content/lessons/6d_typsttemplate.md
-        # - file: content/lessons/7_styling.md
-        - file: content/lessons/8_init.md
-
-    - file: content/advanced_start.md
-    - file: content/software.md
-    - file: content/gallery.md
-    # - file: content/example.ipynb
-  abbreviations:
-    JB2: Jupyter Book 2
-    CI/CD: Continuous Integration/Continuous Deployment
-    GHA: GitHub Actions
-    GH: GitHub
-    IDE: Integrated Development Environment
-    VSC: Visual Studio Code
-    CLI: commmand line interface
-
+extends:
+  - 'content/_myst-toc.yml'
     
 site:
   template: book-theme
