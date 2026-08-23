@@ -31,6 +31,10 @@ project:
       template: lapreprint-typst
       output: exports/book.pdf
       id: output-pdf
+  
+  downloads:
+    - id: output-pdf   # 2. Reference the ID here
+      title: Download PDF
 
   # Jupyter Notebook configuration
   jupyter:
