@@ -11,17 +11,17 @@ no-update-date: true
 
 <div style="text-align: center">
 
-# Jupyter Book 2 Workshop Template
+# Materi Pembelajaran (Praktikum) Bioteknologi Kelautan
 
 </div>
 
-```{figure} content/figures/logo.svg
+```{figure} figures/logo.svg
 :width: 80%
 :align: center
 ```
 
-_A GitHub Template repository designed for use in Jupyter Book 2 and MyST workshops._
+Catatan pribadi terhadap apa yang saya pahami tentang mata kuliah ini. Dibuat karena ilmu pengetahuan haruslah "dapat diakses"
 
 <div style="text-align: center", font-size: 1.2em>
-Freek Pols, Luuk Fröling, Robert Lanzafame, Kirstie Whitaker, Jim Madge
+Wildan Mufti
 </div>
