@@ -21,6 +21,11 @@ no-update-date: true
 
 Catatan pribadi terhadap apa yang saya pahami tentang mata kuliah ini. Dibuat karena ilmu pengetahuan haruslah "dapat diakses"
 
+:::{tip}
+**Proses belajar** membutuhkan kebebasan untuk **salah**, tetapi **tujuan belajar** adalah memahami mana yang **benar**.
+:::
+
+
 <div style="text-align: center", font-size: 1.2em>
 Wildan Mufti
 </div>

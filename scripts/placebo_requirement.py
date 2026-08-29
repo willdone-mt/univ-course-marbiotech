@@ -1,3 +1,4 @@
 import jupyter_book
 import jupyter
 import matplotlib
+import nbstripout

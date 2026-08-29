@@ -44,6 +44,8 @@ Silahkan pergi menuju [dokumen ini untuk cara mengajarinya](pipetting-teach.ipyn
 Mikropipet adalah alat untuk memindahkan/mengambil cairan yang bervolume cukup kecil, biasanya kurang dari 1000 μl.
 Penelitian di bidang bioteknologi kelautan tidak lepas dari alat laboratorium berupa mikropipet.
 
+Mikropipet memiliki ukuran-ukuran tertentu.
+
 
 ![berbagai ukuran mikropipet. Image all rights reserved](temp-ukuran_pipet.png) 
 
@@ -53,7 +55,7 @@ Penelitian di bidang bioteknologi kelautan tidak lepas dari alat laboratorium be
 
 1. _Plunger button_: bagian ini bergerak ke atas saat dilepas dan ke bawah saat ditekan, berfungsi untuk mengambil dan mengeluarkan cairan. 
 2. _Tip ejector button_: berfungsi untuk mendorong atau melepaskan tip dari mikropipet 
-3. _Volume indicator_: menunjukkan jumlah cairan yang akan dipipet 
+3. _Volume indicator / Volumeter_: menunjukkan jumlah cairan yang akan dipipet 
 4. _Volume adjusment_: bagian untuk mengatur besar kecilnya volume cairan. 
 5. _Tip attachment_: bagian untuk menempelkan tip 
 6. _Plastik tip_: bagian terpisah dari mikropipet yang langsung bersentuhan dengan cairan, menampung cairan sesuai volume yang diatur, dan ukurannya disesuaikan dengan kapasitas mikropipet. 
@@ -69,6 +71,7 @@ Sebelum digunakan, plunger button sebaiknya ditekan berkali-kali untuk memastika
 5. Pindahkan ujung tip ke tempat penampung yang diinginkan. 
 6. Tekan plunger button sampai hambatan kedua / second stop atau tekan semaksimal mungkin maka semua cairan akan keluar dari ujung tip. 
 7. Lepas tip setelah digunakan dengan menekan tombol Tip eject button. 
+8. Apabila mikropipet sudah digunakan, kembalikan volumeter menjadi
 
 Berikut adalah video yang bisa ditonton untuk prosedur pemakaian mikropipet, khususnya merek DragonLab: <https://www.youtube.com/watch?v=QNquSEKOl08>, dengan stempel waktu dari 00:00 - 02:00 [@dlabscientificinc.PipetteBasicsForward2026].
 
