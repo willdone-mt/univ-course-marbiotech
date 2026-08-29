@@ -1,3 +1,6 @@
+**/*.xlsx
+
+
 _build
 exports/
 _videos

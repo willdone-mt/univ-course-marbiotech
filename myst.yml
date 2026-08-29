@@ -12,7 +12,7 @@ project:
     - name: Kirstie Whitaker
     - name: Jim Madge
   license:
-    content: CC-BY-4.0
+    content: CC-BY-NC-SA-4.0
   references:
     myst-guide: https://mystmd.org/guide
     jupyter: https://docs.jupyter.org/en/latest
@@ -31,16 +31,21 @@ project:
       template: lapreprint-typst
       output: exports/modul-biotek-praktikum_25.pdf
       id: output-pdf
+
+    - format: pdf
+      id: single-page-pdf
+      template: lapreprint-typst   # Uses typst for fast, clean rendering
   
+  # This adds it directly to the HTML website download menu
   downloads:
+    - id: single-page-pdf
+      title: Download Page as PDF
+
     - id: output-pdf   # 2. Reference the ID here
       title: Download Full Book as PDF
 
   # Jupyter Notebook configuration
-  jupyter:
-    binder:
-      repo: https://github.com/executablebooks/thebe-binder-base
-
+  jupyter: false
 extends:
   - 'content/_myst-toc.yml'
     

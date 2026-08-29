@@ -2,15 +2,11 @@ version: 1
 project:
 
   toc:
-    - file: content/index.md                      # the landing page
-    - file: content/pipetting.md
-    # - file: content/example.ipynb
+    - file: content/index.md
+    - pattern: content/**/**-course.md
+    - pattern: 'content/**/**-teach.ipynb'
+      hidden: true
+    
   abbreviations:
-    JB2: Jupyter Book 2
-    CI/CD: Continuous Integration/Continuous Deployment
-    GHA: GitHub Actions
-    GH: GitHub
-    IDE: Integrated Development Environment
-    VSC: Visual Studio Code
-    CLI: commmand line interface
+    Asprak: Asisten Praktikum
 

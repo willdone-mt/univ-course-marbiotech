@@ -1,7 +1,7 @@
 ---
 bibliography: "../reference.bib"
 ---
-# Mikropipet dan Pipetting
+# isolasi
 
 <!-- 
 Poin-poin bagian ini:
@@ -19,6 +19,13 @@ Untuk meningkatkan akurasi, ujung pipet dicelupkan tepat di bawah cairan pada po
 Hindari mencelupkan ujung pipet terlalu dalam, karena dapat meningkatkan volume cairan, sedangkan mencelupkan ujung pipet terlalu dekat dengan permukaan cairan menyebabkan aspirasi udara ke dalam pipet sehingga menghasilkan volume yang tidak akurat.  
 
 Tiap-tiap bagian akan menjelaskan tentang komponen (anatomi) pipet, prosedur penggunaan, dan cara merawatnya. sub-bagian yang disebutkan terakhir penting bagi laboran ataupun pemelihara alat.
+
+:::{admonition} Untuk Pengajar
+:class: tip dropdown
+
+Silahkan pergi menuju [dokumen ini untuk cara mengajarinya](teach.md)
+:::
+
 
 ## Mikropipet
 
@@ -56,3 +63,17 @@ Berikut adalah video yang bisa ditonton untuk prosedur pemakaian mikropipet, khu
 ### Pemeliharaan
 
 ## Pipet Volumetrik
+
+### Prosedur Penggunaan
+
+Pilih pipet ukur sesuai volume yang dibutuhkan. 
+
+1. Pasang filler pada pangkal pipet ukur dengan kuat agar tidak bocor. 
+2. Pastikan pipet dan filler bersih serta kering sebelum digunakan. 
+3. Tekan katup A (aspirate) pada filler untuk mengeluarkan udara. 
+4. Celupan ujung pipet ke dalam cairan yang akan diambil. 
+5. Tekan katup S (suction) agar cairan tersedot ke dalam pipet hingga melewati tanda skala volume yang diinginkan. 
+6. Atur volume dengan cara sejajarkan meniskus cairan dengan garis skala. 
+7. Arahkan ujung pipet ke wadah tujuan, lalu tekan katup E (exhaust) untuk mengeluarkan cairan dari pipet, pastikan cairan keluar tanpa gelembung udara. 
+8. Lepas filler dari pipet dan bersihkan pipet. 
+
