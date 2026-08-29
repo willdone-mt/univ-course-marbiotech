@@ -2,15 +2,11 @@
 version: 1
 project:
   id: 7204695b-7485-4989-863c-16cf6e4db155
-  title: Jupyter Book 2 Workshop Template
+  title: Materi Pembelajaran (Praktikum) Bioteknologi Kelautan
   description: This description goes in the preface of the pdf output. 
   # keywords: []
   authors:
-    - name: Freek Pols
-    - name: Luuk Fröling
-    - name: Robert Lanzafame
-    - name: Kirstie Whitaker
-    - name: Jim Madge
+    - name: Wildan Mufti
   license:
     content: CC-BY-NC-SA-4.0
   references:
@@ -24,30 +20,14 @@ project:
   plugins:
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/experiment/experiment.mjs
     - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updatedv1.1/page-last-updated.mjs
-  
-  # exports and downloads
-  exports:
-    - format: typst
-      template: lapreprint-typst
-      output: exports/modul-biotek-praktikum_25.pdf
-      id: output-pdf
-
-    - format: pdf
-      id: single-page-pdf
-      template: lapreprint-typst   # Uses typst for fast, clean rendering
-  
-  # This adds it directly to the HTML website download menu
-  downloads:
-    - id: single-page-pdf
-      title: Download Page as PDF
-
-    - id: output-pdf   # 2. Reference the ID here
-      title: Download Full Book as PDF
 
   # Jupyter Notebook configuration
   jupyter: false
+  parts:
+    abstract: ""
 extends:
   - 'content/_myst-toc.yml'
+  - 'config/_myst-downloads.yml'
     
 site:
   template: book-theme

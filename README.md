@@ -1,3 +1,12 @@
+---
+exports:
+  - format: pdf
+    id: current-page-pdf
+    template: lapreprint-typst
+downloads:
+  - id: current-page-pdf
+    title: Download Current Page as PDF
+---
 # Workshop Template
 
 This repository provides a template for creating JB2 books using [MystMD](https://mystmd.org/). It is intended to be a general tool to support new users of Jupyter Book 2 and MystMD, in particular for use in workshop settings where participants may not have time or ability to install the required software on a personal computer.
@@ -30,3 +39,4 @@ If you are using this template to create a new repository, specify your license 
 ## Acknowledgements
 
 This project uses material from Freek Pols created for other book projects at Delft University of Technology. It also is (heavily) influenced by the [TeachBooks Template for Jupyter Book 1](https://github.com/teachBooks/template).
+

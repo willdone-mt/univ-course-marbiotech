@@ -1,6 +1,7 @@
 ---
 bibliography: "../reference.bib"
 ---
+
 # Mikropipet dan Pipetting
 
 <!-- 
@@ -76,4 +77,5 @@ Pilih pipet ukur sesuai volume yang dibutuhkan.
 6. Atur volume dengan cara sejajarkan meniskus cairan dengan garis skala. 
 7. Arahkan ujung pipet ke wadah tujuan, lalu tekan katup E (exhaust) untuk mengeluarkan cairan dari pipet, pastikan cairan keluar tanpa gelembung udara. 
 8. Lepas filler dari pipet dan bersihkan pipet. 
+
 

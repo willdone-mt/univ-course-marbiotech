@@ -1,13 +1,3 @@
----
-title: Jupyter Book 2 Workshop Template
-site:
-  hide_outline: true
-  hide_toc: true
-  hide_title_block: true
-  
-no-update-date: true
----
-
 
 <div style="text-align: center">
 
@@ -25,3 +15,4 @@ Catatan pribadi terhadap apa yang saya pahami tentang mata kuliah ini. Dibuat ka
 <div style="text-align: center", font-size: 1.2em>
 Wildan Mufti
 </div>
+

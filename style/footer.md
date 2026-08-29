@@ -1,7 +1,3 @@
----
-no-update-date: true
----
-
 :::::{grid} 3 3 5 5
 :class: outer-grid col-screen
 
@@ -51,3 +47,4 @@ This workshop may be used by anyone, for any purpose, under the terms of the CC-
 ::::
 
 :::::
+
