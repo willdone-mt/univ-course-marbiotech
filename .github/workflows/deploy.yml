@@ -30,6 +30,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Inject per-page export frontmatter
+        run: python scripts/inject_page_exports.py
+
       - name: Build PDF
         run: jupyter book build --pdf
 

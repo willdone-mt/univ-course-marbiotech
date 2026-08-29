@@ -14,7 +14,7 @@ project:
     jupyter: https://docs.jupyter.org/en/latest
 
   date: 2025-11-02 # ${BUILD_DATE} 
-  github: https://github.com/jupyter-book/workshop-template # Change this URL to your GitHub repository
+  github: https://github.com/willdone-mt/univ-course-marbiotech # Change this URL to your GitHub repository
   edit_url: 
   
   plugins:
@@ -23,8 +23,7 @@ project:
 
   # Jupyter Notebook configuration
   jupyter: false
-  parts:
-    abstract: ""
+
 extends:
   - 'content/_myst-toc.yml'
   - 'config/_myst-downloads.yml'
@@ -42,4 +41,4 @@ site:
 
   actions:
     - title: Feedback
-      url: https://github.com/jupyter-book/workshop-template/issues
+      url: https://github.com/willdone-mt/univ-course-marbiotech/issues

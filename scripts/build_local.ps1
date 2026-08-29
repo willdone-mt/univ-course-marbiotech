@@ -4,6 +4,6 @@
 Write-Host "Activating python .venv..." -ForegroundColor Cyan
 (Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& .venv\Scripts\Activate.ps1)
 
-jupyter-book build --pdf --all
-
+python scripts/inject_page_exports.py
+jupyter-book build --pdf
 jupyter-book start

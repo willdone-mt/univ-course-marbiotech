@@ -1,28 +1,15 @@
 version: 1
 project:
-  
   exports:
-    # 1. Full Book PDF Configuration
-    # An export with a hardcoded output file maps directly to the entire book collection
-    - format: pdf
-      id: full-book-pdf
-      template: lapreprint-typst
-      output: _build/exports/modul-biotek-praktikum_25.pdf
-
-    # 2. Site-Wide Single Page PDF Configuration
-    # Leaving out the 'output' path entirely creates the "Magic Key". 
-    # MyST will dynamically generate an isolated PDF for every individual page automatically.
-    - format: pdf
-      id: single-page-pdf
-      template: lapreprint-typst
-
+    - id: full-book-pdf
+      format: typst
+      template: https://github.com/myst-templates/plain_typst_book.git
+      output: exports/modul-biotek-praktikum_25.pdf
+      cover: content/figures/logo.svg
+      logo: content/figures/logo.svg
+      show_ToC: true
+      ToC_depth: 2
+      papersize: a4
   downloads:
-    # This automatically hooks into the context of the page the user is currently viewing
-    - id: single-page-pdf
-      title: Download Current Page as PDF
-
-    # This creates a persistent static download pointing back to the compiled book artifact
-    - id: full-book-pdf   
-      title: Download Full Book as PDF
-
-
+    - id: full-book-pdf
+      title: Unduh Buku Lengkap (PDF)

@@ -1,5 +1,15 @@
 ---
-bibliography: "../reference.bib"
+bibliography: ../reference.bib
+exports:
+- format: typst
+  template: https://github.com/myst-templates/plain_typst_book.git
+  show_ToC: false
+  papersize: a4
+downloads:
+- id: pipetting-pdf
+  title: Unduh Halaman Ini (PDF)
+- id: full-book-pdf
+  title: Unduh Buku Lengkap (PDF)
 ---
 
 # Mikropipet dan Pipetting
@@ -34,7 +44,7 @@ Mikropipet adalah alat untuk memindahkan/mengambil cairan yang bervolume cukup k
 Penelitian di bidang bioteknologi kelautan tidak lepas dari alat laboratorium berupa mikropipet.
 
 
-![berbagai ukuran mikropipet. Image all rights reserved](temp-ukuran_pipet.webp) 
+![berbagai ukuran mikropipet. Image all rights reserved](temp-ukuran_pipet.png) 
 
 ### Anatomi mikropipet
 
