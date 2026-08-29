@@ -26,15 +26,31 @@ CONTENT = ROOT / "content"
 # Files that should get their own single-page PDF.
 PATTERNS = ["**/*-course.md", "**/*-teach.ipynb"]
 
-# The block written into every matched page.
-PAGE_EXPORTS = [
-    {
-        "format": "typst",
-        "template": "https://github.com/myst-templates/plain_typst_book.git",
-        "show_ToC": False,
-        "papersize": "a4",
-    }
-]
+TEMPLATE = "https://github.com/myst-templates/plain_typst_book.git"
+
+# Export id of the whole-book PDF, declared in config/_myst-downloads.yml.
+BOOK_ID = "full-book-pdf"
+BOOK_TITLE = "Unduh Buku Lengkap (PDF)"
+PAGE_TITLE = "Unduh Halaman Ini (PDF)"
+
+
+def blocks_for(path: Path) -> tuple[list, list]:
+    """Return the (exports, downloads) blocks for one page."""
+    page_id = f"{path.stem}-pdf"
+    exports = [
+        {
+            "id": page_id,
+            "format": "typst",
+            "template": TEMPLATE,
+            "show_ToC": False,
+            "papersize": "a4",
+        }
+    ]
+    downloads = [
+        {"id": page_id, "title": PAGE_TITLE},
+        {"id": BOOK_ID, "title": BOOK_TITLE},
+    ]
+    return exports, downloads
 
 
 def split_frontmatter(text: str) -> tuple[dict, str]:
@@ -58,9 +74,11 @@ def dump_frontmatter(fm: dict) -> str:
 def update_markdown(path: Path, check: bool) -> bool:
     original = path.read_text(encoding="utf-8")
     fm, body = split_frontmatter(original)
-    if fm.get("exports") == PAGE_EXPORTS:
+    exports, downloads = blocks_for(path)
+    if fm.get("exports") == exports and fm.get("downloads") == downloads:
         return False
-    fm["exports"] = PAGE_EXPORTS
+    fm["exports"] = exports
+    fm["downloads"] = downloads
     updated = dump_frontmatter(fm) + body
     if not check:
         path.write_text(updated, encoding="utf-8")
@@ -70,9 +88,11 @@ def update_markdown(path: Path, check: bool) -> bool:
 def update_notebook(path: Path, check: bool) -> bool:
     nb = json.loads(path.read_text(encoding="utf-8"))
     meta = nb.setdefault("metadata", {})
-    if meta.get("exports") == PAGE_EXPORTS:
+    exports, downloads = blocks_for(path)
+    if meta.get("exports") == exports and meta.get("downloads") == downloads:
         return False
-    meta["exports"] = PAGE_EXPORTS
+    meta["exports"] = exports
+    meta["downloads"] = downloads
     if not check:
         path.write_text(json.dumps(nb, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     return True

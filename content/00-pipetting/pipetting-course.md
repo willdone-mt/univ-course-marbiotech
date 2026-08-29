@@ -1,12 +1,13 @@
 ---
 bibliography: ../reference.bib
 exports:
-- format: typst
+- id: pipetting-course-pdf
+  format: typst
   template: https://github.com/myst-templates/plain_typst_book.git
   show_ToC: false
   papersize: a4
 downloads:
-- id: pipetting-pdf
+- id: pipetting-course-pdf
   title: Unduh Halaman Ini (PDF)
 - id: full-book-pdf
   title: Unduh Buku Lengkap (PDF)
