@@ -3,3 +3,6 @@ nbstripout
 pandas==3.0.5
 pipreqsnb==0.2.4
 PyYAML==6.0.3
+jupyter-book>=2.0.0
+jupyter
+matplotlib>=3.10.7
