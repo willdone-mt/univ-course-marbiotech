@@ -32,8 +32,8 @@ Hindari mencelupkan ujung pipet terlalu dalam, karena dapat meningkatkan volume 
 
 Tiap-tiap bagian akan menjelaskan tentang komponen (anatomi) pipet, prosedur penggunaan, dan cara merawatnya. sub-bagian yang disebutkan terakhir penting bagi laboran ataupun pemelihara alat.
 
-:::{admonition} Untuk Pengajar
-:class: tip dropdown
+:::{tip} Untuk Pengajar
+:class: dropdown
 
 Silahkan pergi menuju [dokumen ini untuk cara mengajarinya](pipetting-teach.ipynb)
 :::
