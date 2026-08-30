@@ -1,5 +1,5 @@
 ---
-bibliography: ../reference.bib
+bibliography: "../../reference.bib"
 exports:
 - id: pipetting-course-pdf
   format: typst
@@ -49,6 +49,24 @@ Mikropipet memiliki ukuran-ukuran tertentu.
 
 ![berbagai ukuran mikropipet. Image all rights reserved](temp-ukuran_pipet.png) 
 
+Teknik penggunaan mikropipet dibagi menjadi dua, yaitu
+pipet maju (forward pipetting sequence) dan pipet terbalik (reverse pipetting
+sequence).
+
+Forward pipetting sequence dilakukan dengan menekan tombol
+pendorong perlahan hingga berhenti pertama untuk mengambil cairan, tarik
+pendorong secara bertahap dan hati-hati untuk mencegah masuknya udara,
+lalu tekan pendorong di dalam tabung tujuan hingga berhenti kedua untuk
+mengeluarkan seluruh volume dari ujungnya. Teknik ini cocok digunakan
+pada cairan yang encer. 
+
+Sebaliknya, reverse pipetting sequence dilakukan dengan
+menekan tombol pendorong perlahan hingga berhenti kedua sebelum
+mengambil cairan, tarik pendorong secara bertahap dan hati-hati untuk
+mencegah masuknya udara, lalu tekan pendorong di dalam tabung tujuan
+hingga berhenti pertama untuk mengeluarkan seluruh volume dari ujungnya.
+Teknik ini cocok untuk cairan yang kental maupun berbusa
+
 ### Anatomi mikropipet
 
 ![anatommi mikropipet. Image all rights reserved](temp-mikropipet-anatomi.png)
@@ -56,24 +74,34 @@ Mikropipet memiliki ukuran-ukuran tertentu.
 1. _Plunger button_: bagian ini bergerak ke atas saat dilepas dan ke bawah saat ditekan, berfungsi untuk mengambil dan mengeluarkan cairan. 
 2. _Tip ejector button_: berfungsi untuk mendorong atau melepaskan tip dari mikropipet 
 3. _Volume indicator / Volumeter_: menunjukkan jumlah cairan yang akan dipipet 
-4. _Volume adjusment_: bagian untuk mengatur besar kecilnya volume cairan. 
-5. _Tip attachment_: bagian untuk menempelkan tip 
+4. _Volume adjusment knob_: bagian untuk mengatur besar kecilnya volume cairan. 
+5. _Tip attachment_: Ujung bawah mikropipet, bagian untuk menempelkan tip 
 6. _Plastik tip_: bagian terpisah dari mikropipet yang langsung bersentuhan dengan cairan, menampung cairan sesuai volume yang diatur, dan ukurannya disesuaikan dengan kapasitas mikropipet. 
 
 ### Prosedur Penggunaan
 
 Sebelum digunakan, plunger button sebaiknya ditekan berkali-kali untuk memastikan lancarnya mikropipet. 
 
-1. Masukkan tip bersih ke dalam tip attachment / ujung mikropipet. 
-2. Tekan plunger button sampai hambatan pertama / first stop, jangan ditekan lebih ke dalam lagi. 
-3. Masukkan tip ke dalam cairan sedalam 3-4 mm (tidak terlalu dalam maupun terlalu dekat dengan permukaan cairan). 
-4. Tahan pipet dalam posisi vertikal (±90°) kemudian lepaskan tekanan dari plunger button maka cairan akan masuk ke tip. 
-5. Pindahkan ujung tip ke tempat penampung yang diinginkan. 
-6. Tekan plunger button sampai hambatan kedua / second stop atau tekan semaksimal mungkin maka semua cairan akan keluar dari ujung tip. 
-7. Lepas tip setelah digunakan dengan menekan tombol Tip eject button. 
-8. Apabila mikropipet sudah digunakan, kembalikan volumeter menjadi
+Berikut di bawah ini adalah **prosedur penggunaan forward pipetting sequence**:
+
+1. Atur volumeter menggunakan _volume adjustment knob_
+2. Masukkan tip bersih ke dalam _tip attachment_. 
+3. Tekan plunger button sampai hambatan pertama / first stop, jangan ditekan lebih ke dalam lagi. 
+4. Masukkan tip ke dalam cairan sedalam 3-4 mm (tidak terlalu dalam maupun terlalu dekat dengan permukaan cairan). 
+5. Tahan pipet dalam posisi vertikal (±90°) kemudian lepaskan tekanan dari plunger button maka cairan akan masuk ke tip. 
+6. Pindahkan ujung tip ke tempat penampung yang diinginkan. 
+7. Tekan plunger button sampai hambatan kedua / second stop atau tekan semaksimal mungkin maka semua cairan akan keluar dari ujung tip. 
+8. Lepas tip setelah digunakan dengan menekan tombol Tip eject button. 
+9. Apabila mikropipet sudah digunakan, kembalikan volumeter menjadi volume terbesar di rentang tersebut
 
 Berikut adalah video yang bisa ditonton untuk prosedur pemakaian mikropipet, khususnya merek DragonLab: <https://www.youtube.com/watch?v=QNquSEKOl08>, dengan stempel waktu dari 00:00 - 02:00 [@dlabscientificinc.PipetteBasicsForward2026].
+
+#### Beberapa Reka Guna (Use Case)
+
+Dari prosedur yang disebut, ada beberapa aspek yang bisa dipertanyakan dalam satu rentetan pemakaian, yaitu:
+
+- Volume
+- Cairan 
 
 ### Pemeliharaan
 
