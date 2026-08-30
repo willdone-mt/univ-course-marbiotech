@@ -10,6 +10,7 @@ project:
       show_ToC: true
       ToC_depth: 2
       papersize: a4
+      fontsize: 12
   downloads:
     - id: full-book-pdf
       title: Unduh Buku Lengkap (PDF)
