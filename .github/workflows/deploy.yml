@@ -15,7 +15,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -34,7 +34,7 @@ jobs:
         run: python scripts/inject_page_exports.py
 
       - name: Build PDF
-        run: jupyter book build --pdf
+        run: jupyter book build --execute --pdf
 
       - name: Build HTML
         run: jupyter book build --execute --html
