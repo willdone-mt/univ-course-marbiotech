@@ -19,13 +19,13 @@ downloads:
 - Prinsip
 - Alur secara garis besar
 
-:::{tip} ELI5
+:::{important} ELI5
 
 Lorem Ipsum
 
 :::
 
-:::{important} Untuk Pengajar
+:::{tip} Untuk Pengajar
 :class: dropdown
 
 Silahkan pergi menuju [dokumen ini untuk cara mengajarinya](dnaisolation-teach.ipynb)
@@ -110,6 +110,12 @@ CIAA --> FCIAA
 F --> FCIAA
 ~~~
 
+[^1]: Isoamil alkohol adalah alkohol berantai cabang yang digunakan sebagai komponen dalam buffer ekstraksi organik untuk mencegah denaturasi protein. 
+Agen penghilang busa (defoaming agent) menstabilkan antarmuka pemisahan fase selama ekstraksi fenol dalam prosedur pemurnian genomik molekuler dan pemulihan DNA [@IsoamylAlcohol].
+
+[^2]: Campuran fenol:kloroform:isoamil alkohol adalah reagen khusus yang digunakan untuk pemisahan fase cair asam nukleat dari protein. 
+Campuran PCI ini memfasilitasi ekstraksi organik dan denaturasi protein dalam berbagai protokol profesional pemurnian DNA genomik [@PhenolChloroformIsoamyl].
+
 ### Pembuatan CTAB
 
 - EDTA ([EthyleneDiamineTetraAcetic acid](https://en.wikipedia.org/wiki/Ethylenediaminetetraacetic_acid))
@@ -119,10 +125,32 @@ F --> FCIAA
 - Prosedur
 - Diagram alur
 
+Prosedur yang tercantum disini merupakan: modifikasi dari beberapa referensi; penyesuaian terhadap waktu praktikum yang tersedia dan; penyesuaian terhadap alat dan bahan yang tersedia.
+
+::::{tab-set}
+
+:::{tab-item} Isolasi Bakteri
+:sync: tab-bakteri
+
+[need citation]
+
+:::
+
+:::{tab-item} Isolasi Rumput Laut
+:sync: tab-rumputlaut
+
+[need citation]
+
+:::
+
+:::{tab-item} Isolasi Hewan
+:sync: tab-hewan
+
+[@hillOriginPaxSix2010]
+
+:::
+
+::::
 
 
-[^1]: Isoamil alkohol adalah alkohol berantai cabang yang digunakan sebagai komponen dalam buffer ekstraksi organik untuk mencegah denaturasi protein. 
-Agen penghilang busa (defoaming agent) menstabilkan antarmuka pemisahan fase selama ekstraksi fenol dalam prosedur pemurnian genomik molekuler dan pemulihan DNA [@IsoamylAlcohol].
 
-[^2]: Campuran fenol:kloroform:isoamil alkohol adalah reagen khusus yang digunakan untuk pemisahan fase cair asam nukleat dari protein. 
-Campuran PCI ini memfasilitasi ekstraksi organik dan denaturasi protein dalam berbagai protokol profesional pemurnian DNA genomik [@PhenolChloroformIsoamyl].
