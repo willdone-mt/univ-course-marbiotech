@@ -32,6 +32,7 @@ TEMPLATE = "https://github.com/myst-templates/plain_typst_book.git"
 BOOK_ID = "full-book-pdf"
 BOOK_TITLE = "Unduh Buku Lengkap (PDF)"
 PAGE_TITLE = "Unduh Halaman Ini (PDF)"
+PAPER_SIZE = "a5"
 
 
 def blocks_for(path: Path) -> tuple[list, list]:
@@ -43,7 +44,7 @@ def blocks_for(path: Path) -> tuple[list, list]:
             "format": "typst",
             "template": TEMPLATE,
             "show_ToC": False,
-            "papersize": "a4",
+            "papersize": PAPER_SIZE,
         }
     ]
     downloads = [
