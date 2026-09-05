@@ -6,7 +6,4 @@ project:
     - pattern: content/**/**-course.md
     - pattern: 'content/**/**-teach.ipynb'
       hidden: true
-    
-  abbreviations:
-    Asprak: Asisten Praktikum
 

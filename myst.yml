@@ -27,6 +27,7 @@ project:
 extends:
   - 'content/_myst-toc.yml'
   - 'config/_myst-downloads.yml'
+  - 'content/_myst-abbreviations.yml'
     
 site:
   template: book-theme
