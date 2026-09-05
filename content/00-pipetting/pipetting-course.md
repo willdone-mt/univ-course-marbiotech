@@ -5,7 +5,7 @@ exports:
   format: typst
   template: https://github.com/myst-templates/plain_typst_book.git
   show_ToC: false
-  papersize: a4
+  papersize: a5
 downloads:
 - id: pipetting-course-pdf
   title: Unduh Halaman Ini (PDF)
