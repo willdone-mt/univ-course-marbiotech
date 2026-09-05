@@ -30,6 +30,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Patch jupyter-book typst renderer
+        run: python scripts/patch_jupyterbook_typst.py
+
+      - name: Cache Puppeteer Chromium
+        uses: actions/cache@v4
+        with:
+            path: ~/.cache/puppeteer
+            key: puppeteer-${{ runner.os }}-mermaid-cli
+
+      - name: Render mermaid diagrams
+        run: python scripts/render_mermaid.py
+
       - name: Inject per-page export frontmatter
         run: python scripts/inject_page_exports.py
 
