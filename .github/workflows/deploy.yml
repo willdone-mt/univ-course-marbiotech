@@ -31,7 +31,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Patch jupyter-book typst renderer
-        run: python scripts/patch_mystmd_typst.py
+        run: python scripts/patch_jupyterbook_typst.py
 
       - name: Cache Puppeteer Chromium
         uses: actions/cache@v4
