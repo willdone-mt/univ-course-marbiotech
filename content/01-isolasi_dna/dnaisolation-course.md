@@ -90,25 +90,12 @@ Silahkan pergi menuju [dokumen ini untuk cara mengajarinya](dnaisolation-teach.i
 
 ::::
 
-~~~mermaid
-flowchart TD
+:::{figure} ./pcia.svg
+:label: fig:pcia
 
-C[Kloroform]
+Komposisi PCIA dan CIAA
+:::
 
-IA[Isoamil Alkohol]
-
-F[Fenol]
-
-CIAA
-
-FCIAA[Fenol:Kloroform:Isoamil Alkohol]
-
-C --> CIAA
-IA --> CIAA
-
-CIAA --> FCIAA
-F --> FCIAA
-~~~
 
 [^1]: Isoamil alkohol adalah alkohol berantai cabang yang digunakan sebagai komponen dalam buffer ekstraksi organik untuk mencegah denaturasi protein. 
 Agen penghilang busa (defoaming agent) menstabilkan antarmuka pemisahan fase selama ekstraksi fenol dalam prosedur pemurnian genomik molekuler dan pemulihan DNA [@IsoamylAlcohol].
