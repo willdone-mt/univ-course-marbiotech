@@ -19,6 +19,30 @@ downloads:
 - Prinsip
 - Alur secara garis besar
 
+:::{tip} Placebo
+
+
+
+Isolasi DNA bertujuan untuk memisahkan DNA dari partikel-partikel
+lainnya seperti lipid, protein, polisakarida, dan zat lainnya. Isolasi DNA
+berguna untuk beberapa analisis molekuler dan rekayasa genetika seperti
+genom editing, transformasi dan PCR. Isolasi DNA
+dilakukan dengan metode CTAB (Cetyl Trimethyl Ammonium Bromide), metode
+ini pertama kali dikenalkan oleh Doyle & amp; Doyle (1990). CTAB sendiri
+merupakan senyawa kimia yang memiliki kemampuan untuk menghancurkan
+dinding selulosa pada tumbuhan, hal ini memudahkan dalam proses isolasi
+DNA.
+
+Isolasi DNA memiliki tiga prinsip utama yaitu penghancuran (lisis),
+ektraksi atau pemisahan DNA dari selulosa dan protein, serta pemurnian
+DNA. Penghancuran (lisis) dilakukan dengan cara menggerus sampel dengan
+larutan CTAB dan bahan kimia yang lain dengan tujuan agar DNA yang ada
+pada sampel dapat dipisahkan dari sel-sel yang sudah terikat oleh bahan kimia
+pengikat. Untuk pemurnian DNA dilakukan dengan cara mensterilkan DNA
+yang telah terikat dan disimpan hingga akan dilanjutkan pada tahap PCR.
+
+:::
+
 :::{important} ELI5
 
 Lorem Ipsum
@@ -67,14 +91,14 @@ Silahkan pergi menuju [dokumen ini untuk cara mengajarinya](dnaisolation-teach.i
 - Media kultur bakteri 
 - Sampel bakteri 
 - Sampel rumput laut 
-- Sampel filet ikan 
+- Sampel spons
 - TE Buffer ([Tris-EDTA Buffer](https://en.wikipedia.org/wiki/TE_buffer))
 - CTAB ([Cetyl Trimethyl Ammonium Bromide](https://en.wikipedia.org/wiki/Cetrimonium_bromide#:~:text=DNA%20extractionedit))
 - Amonium asetat 
 - NaCl 5 M 
-- Fenol 
-- Kloroform 
-- [Isoamil alkohol](https://en.wikipedia.org/wiki/Isoamyl_alcohol)[^1]
+- [Fenol](https://en.wikipedia.org/wiki/Phenol) 
+- [Kloroform](https://en.wikipedia.org/wiki/Chloroform) 
+- iAmOH ([Isoamil alkohol](https://en.wikipedia.org/wiki/Isoamyl_alcohol)[^1])
 - CIAA (Kloroform:Isoamil Alkohol = 24:1)
 - PCIA[^2] (Fenol:kloroform:isoamil alkohol = 25:24:1) 
 - Etanol absolut dingin 
@@ -116,8 +140,10 @@ Prosedur yang tercantum disini merupakan: modifikasi dari beberapa referensi; pe
 
 ::::{tab-set}
 
-:::{tab-item} Isolasi Bakteri
+:::{tab-item} Bakteri
 :sync: tab-bakteri
+
+### Isolasi Bakteri
 
 [need citation]
 
@@ -125,8 +151,10 @@ Prosedur yang tercantum disini merupakan: modifikasi dari beberapa referensi; pe
 ```
 :::
 
-:::{tab-item} Isolasi Rumput Laut
+:::{tab-item} Rumput Laut
 :sync: tab-rumputlaut
+
+### Isolasi Rumput Laut
 
 [need citation]
 
@@ -135,8 +163,10 @@ Prosedur yang tercantum disini merupakan: modifikasi dari beberapa referensi; pe
 
 :::
 
-:::{tab-item} Isolasi Hewan
+:::{tab-item} Hewan (Spons)
 :sync: tab-hewan
+
+### Isolasi Spons
 
 [@hillOriginPaxSix2010]
 
@@ -147,5 +177,5 @@ Prosedur yang tercantum disini merupakan: modifikasi dari beberapa referensi; pe
 
 ::::
 
-
+DNA hasil isolasi disimpan pada suhu −20 °C hingga digunakan untuk proses PCR.  
 
