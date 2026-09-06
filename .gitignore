@@ -10,6 +10,27 @@ _videos
 **.mp4
 **.pptx
 
+### MicrosoftOffice ###
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
+
 # The contents below are from the initial commit of choldgraf when setting up repo
 
 # Byte-compiled / optimized / DLL files
