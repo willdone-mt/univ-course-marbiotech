@@ -121,6 +121,8 @@ Prosedur yang tercantum disini merupakan: modifikasi dari beberapa referensi; pe
 
 [need citation]
 
+```{include} ./_generated/prosedur-bakteri.md
+```
 :::
 
 :::{tab-item} Isolasi Rumput Laut
@@ -128,12 +130,18 @@ Prosedur yang tercantum disini merupakan: modifikasi dari beberapa referensi; pe
 
 [need citation]
 
+```{include} ./_generated/prosedur-rumputlaut.md
+```
+
 :::
 
 :::{tab-item} Isolasi Hewan
 :sync: tab-hewan
 
 [@hillOriginPaxSix2010]
+
+```{include} ./_generated/prosedur-spons.md
+```
 
 :::
 
