@@ -1,0 +1,37 @@
+workbook: dnaisolation-procedure.xlsx
+outdir: _generated
+
+# Sheet 1 -- the single source of truth. Every target reads from here.
+source:
+  sheet: Perbandingan Prosedur
+  header_row: 2          # row holding the sample names (Bakteri / RL / Spons)
+  first_data_row: 3
+  id_column: Step ID
+  group_column: Alur     # phase headings; written once, carried down
+
+targets:
+
+  # --- numbered lists, one per sample --------------------------------
+  - kind: list
+    column: Bakteri
+    out: prosedur-bakteri.md
+
+  - kind: list
+    column: RL
+    out: prosedur-rumputlaut.md
+
+  - kind: list
+    column: Spons
+    out: prosedur-spons.md
+
+  # --- per-sample Alat/Lokasi, joined back to the procedure text ------
+  - kind: detail
+    column: Bakteri              # which sample column to pull text from
+    sheet: Alat  & Lokasi Bakteri
+    header_row: 1
+    first_data_row: 2
+    id_column: Step ID
+    extra_columns: [Alat, Lokasi]
+    out: alat-lokasi-bakteri.md
+    caption: Alat dan lokasi tiap tahap isolasi DNA bakteri
+    label: tbl:alat-lokasi-bakteri

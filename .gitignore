@@ -1,5 +1,6 @@
-**/*.xlsx
 
+# generated content -- rebuilt by scripts/
+content/**/_generated/
 
 _build
 exports/

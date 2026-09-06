@@ -6,6 +6,7 @@ Write-Host "Activating python .venv..." -ForegroundColor Cyan
 
 python scripts/patch-mystmd-typst.py
 python scripts/inject_page_exports.py
+python scripts/xlsx_to_markdown.py
 python scripts/render_mermaid.py
 jupyter-book build --execute --pdf --html
 jupyter-book start
