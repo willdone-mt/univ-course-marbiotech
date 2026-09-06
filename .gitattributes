@@ -1,1 +1,4 @@
 *.xlsx binary
+
+content/**/*.md linguist-documentation=false
+content/**/*.md linguist-detectable
