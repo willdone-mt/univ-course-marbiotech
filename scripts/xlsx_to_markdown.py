@@ -190,6 +190,7 @@ def as_detail(wb, target: dict) -> str:
     source = target["source"]
     sample = target["column"]
     index = read_source(wb, source, sample)
+    show_group = target.get("show_group", True)
 
     ws = wb[target["sheet"]]
     headers = header_map(ws, target["header_row"])
@@ -224,17 +225,10 @@ def as_detail(wb, target: dict) -> str:
         else:
             # Merged row: show each step as its own bullet inside the cell.
             text = "\n".join(f"- {s['n']}. {s['text']}" for s in found)
-        rows.append(
-            {
-                "order": found[0]["order"],
-                "cells": [
-                    " / ".join(alurs),
-                    format_numbers([s["n"] for s in found]),
-                    text,
-                    *[clean(ws.cell(row, c).value) for c in extra_cols],
-                ],
-            }
-        )
+        cells = [format_numbers([s["n"] for s in found]), text, *[clean(ws.cell(row, c).value) for c in extra_cols]]
+        if show_group:
+            cells.insert(0, " / ".join(alurs))
+        rows.append({"order": found[0]["order"], "cells": cells})
 
     missing = [i for i in index if i not in seen]
     if missing:
@@ -246,6 +240,10 @@ def as_detail(wb, target: dict) -> str:
 
     rows.sort(key=lambda r: r["order"])
 
+    header = ["No", "Prosedur", *extra_names]
+    if show_group:
+        header.insert(0, target.get("group_header", "Alur"))
+
     out = [BANNER, ""]
     caption = target.get("caption", "")
     out.append(f":::{{list-table}} {caption}".rstrip())
@@ -253,7 +251,7 @@ def as_detail(wb, target: dict) -> str:
         out.append(f":label: {target['label']}")
     out.append(":header-rows: 1")
     out.append("")
-    emit_cells(out, [target.get("group_header", "Alur"), "No", "Prosedur", *extra_names])
+    emit_cells(out, header)
     for row in rows:
         emit_cells(out, row["cells"])
     out += [":::", ""]

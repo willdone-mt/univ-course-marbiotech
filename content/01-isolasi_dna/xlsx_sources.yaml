@@ -35,3 +35,4 @@ targets:
     out: alat-lokasi-bakteri.md
     caption: Alat dan lokasi tiap tahap isolasi DNA bakteri
     label: tbl:alat-lokasi-bakteri
+    show_group: false
